@@ -37,7 +37,7 @@ Clean, modular Python scripts
 Git + GitHub integration for version control and development
 
 🧱 Project Structure
-Code
+<pre>Code
 network-dashboard/
 │
 ├── scripts/
@@ -55,6 +55,7 @@ network-dashboard/
 │
 ├── README.md
 └── .gitignore
+</pre>  
 
 
 ⚙️ How It Works
@@ -70,7 +71,7 @@ Ping, download, upload, and timestamps are extracted.
 4. Results are written to SQLite
 A simple, durable schema:
 
-Code
+<pre>Code
 speedtests(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     timestamp TEXT,
@@ -78,20 +79,23 @@ speedtests(
     download REAL,
     upload REAL
 )
+</pre>  
 5. Logs capture every run
 Useful for debugging cron, network issues, or CLI failures.
 
 🛠️ Setup Instructions
 Install the Ookla CLI
-Code
+<pre>Code
 sudo apt update
 sudo apt install curl -y
 curl -s https://install.speedtest.net/app/cli/install.deb.sh | sudo bash
 sudo apt install speedtest
+</pre>  
 Clone the repo
-Code
+<pre>Code
 git clone git@github.com:CZVCK/network-dashboard.git
 cd network-dashboard
+</pre>  
 Run the collector manually
 Code
 python3 scripts/collect_speedtest.py
