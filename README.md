@@ -11,7 +11,6 @@
 <img src="https://img.shields.io/badge/SQLite-Database-lightgrey?logo=sqlite" />
 <img src="https://img.shields.io/badge/Cron-Automation-green" />
 <img src="https://img.shields.io/badge/Status-Active-success" />
-<img src="https://img.shields.io/badge/License-MIT-yellow" />
 </p>
 
 <p align="center"><strong>A lightweight, reliable, fully automated network monitoring system running on a Raspberry Pi.</strong></p>
