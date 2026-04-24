@@ -1,6 +1,24 @@
-📡 Network Dashboard — Raspberry Pi Internet Monitoring Pipeline
-A lightweight, reliable, fully‑automated network monitoring system built on a Raspberry Pi.
-This project continuously measures internet performance using the official Ookla Speedtest CLI, logs results to a local SQLite database, and runs autonomously via cron.
+
+                                                                              
+
+
+
+📡 Network Dashboard
+<p align="center">Raspberry Pi Internet Monitoring Pipeline</p>
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3.9%2B-blue?logo=python" />
+<img src="https://img.shields.io/badge/Raspberry%20Pi-Linux-red?logo=raspberrypi" />
+<img src="https://img.shields.io/badge/SQLite-Database-lightgrey?logo=sqlite" />
+<img src="https://img.shields.io/badge/Cron-Automation-green" />
+<img src="https://img.shields.io/badge/Status-Active-success" />
+<img src="https://img.shields.io/badge/License-MIT-yellow" />
+</p>
+
+<p align="center"><strong>A lightweight, reliable, fully automated network monitoring system running on a Raspberry Pi.</strong></p>
+
+<p align="center">
+<em>Built for learning. Designed to evolve.</em>
+</p>
 
 It started as a simple script and evolved into a modular, production‑style pipeline — a place to experiment, learn, and build real‑world automation skills.
 
@@ -38,6 +56,8 @@ network-dashboard/
 │
 ├── README.md
 └── .gitignore
+
+
 ⚙️ How It Works
 1. Cron triggers the collector script
 Runs at :05 and :35 each hour (configurable).
