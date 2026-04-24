@@ -1,0 +1,9 @@
+# Ignore logs
+logs/
+
+# Ignore SQLite DBs
+db/*.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
