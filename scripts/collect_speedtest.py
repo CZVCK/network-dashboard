@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 
 # ====== CONFIG ======
-DB_PATH = Path("/home/czvck/Projects/network-dashboard/db/network_metrics.db")
+DB_PATH = "/home/czvck/Projects/network-dashboard/db/network_metrics.db"
 LOG_PATH = Path("/home/czvck/Projects/network-dashboard/logs/speedtest.log")
 RETRIES = 3
 RETRY_DELAY = 20  # seconds

@@ -1,9 +1,15 @@
-# Ignore logs
-logs/
-
-# Ignore SQLite DBs
+# Databases
 db/*.db
 
-# Ignore Python cache
+# Logs
+logs/*.log
+
+# Python cache
 __pycache__/
 *.pyc
+
+# Local environment
+.env
+
+# OS/editor files
+.DS_Store

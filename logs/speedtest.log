@@ -13,3 +13,327 @@
 2026-04-24 07:00:36,060 [INFO] Speedtest success: ping=12.55 ms, down=105.11 Mbps, up=21.20 Mbps
 2026-04-24 07:00:36,073 [INFO] Saved result to database
 2026-04-24 07:00:36,074 [INFO] === Speedtest run completed ===
+2026-04-24 07:30:21,498 [INFO] === Speedtest run started ===
+2026-04-24 07:30:21,501 [INFO] Speedtest attempt 1/3
+2026-04-24 07:30:34,783 [INFO] Speedtest success: ping=12.55 ms, down=105.37 Mbps, up=21.53 Mbps
+2026-04-24 07:30:34,799 [INFO] Saved result to database
+2026-04-24 07:30:34,800 [INFO] === Speedtest run completed ===
+2026-04-24 08:00:22,129 [INFO] === Speedtest run started ===
+2026-04-24 08:00:22,133 [INFO] Speedtest attempt 1/3
+2026-04-24 08:00:37,049 [INFO] Speedtest success: ping=12.72 ms, down=105.53 Mbps, up=21.48 Mbps
+2026-04-24 08:00:37,069 [INFO] Saved result to database
+2026-04-24 08:00:37,070 [INFO] === Speedtest run completed ===
+2026-04-24 08:30:21,404 [INFO] === Speedtest run started ===
+2026-04-24 08:30:21,407 [INFO] Speedtest attempt 1/3
+2026-04-24 08:30:33,907 [INFO] Speedtest success: ping=12.36 ms, down=104.65 Mbps, up=21.50 Mbps
+2026-04-24 08:30:33,922 [INFO] Saved result to database
+2026-04-24 08:30:33,922 [INFO] === Speedtest run completed ===
+2026-04-24 09:00:22,239 [INFO] === Speedtest run started ===
+2026-04-24 09:00:22,241 [INFO] Speedtest attempt 1/3
+2026-04-24 09:00:35,232 [INFO] Speedtest success: ping=12.50 ms, down=105.34 Mbps, up=21.55 Mbps
+2026-04-24 09:00:35,250 [INFO] Saved result to database
+2026-04-24 09:00:35,250 [INFO] === Speedtest run completed ===
+2026-04-24 09:30:21,498 [INFO] === Speedtest run started ===
+2026-04-24 09:30:21,499 [INFO] Speedtest attempt 1/3
+2026-04-24 09:30:34,097 [INFO] Speedtest success: ping=16.57 ms, down=104.76 Mbps, up=21.27 Mbps
+2026-04-24 09:30:34,114 [INFO] Saved result to database
+2026-04-24 09:30:34,114 [INFO] === Speedtest run completed ===
+2026-04-24 10:00:21,427 [INFO] === Speedtest run started ===
+2026-04-24 10:00:21,430 [INFO] Speedtest attempt 1/3
+2026-04-24 10:00:34,746 [INFO] Speedtest success: ping=12.62 ms, down=105.15 Mbps, up=21.51 Mbps
+2026-04-24 10:00:34,757 [INFO] Saved result to database
+2026-04-24 10:00:34,758 [INFO] === Speedtest run completed ===
+2026-04-24 10:30:22,109 [INFO] === Speedtest run started ===
+2026-04-24 10:30:22,111 [INFO] Speedtest attempt 1/3
+2026-04-24 10:30:34,646 [INFO] Speedtest success: ping=13.31 ms, down=105.10 Mbps, up=21.51 Mbps
+2026-04-24 10:30:34,660 [INFO] Saved result to database
+2026-04-24 10:30:34,661 [INFO] === Speedtest run completed ===
+2026-04-24 11:00:21,469 [INFO] === Speedtest run started ===
+2026-04-24 11:00:21,475 [INFO] Speedtest attempt 1/3
+2026-04-24 11:00:34,737 [INFO] Speedtest success: ping=12.04 ms, down=105.05 Mbps, up=21.48 Mbps
+2026-04-24 11:00:34,756 [INFO] Saved result to database
+2026-04-24 11:00:34,756 [INFO] === Speedtest run completed ===
+2026-04-24 11:30:22,107 [INFO] === Speedtest run started ===
+2026-04-24 11:30:22,109 [INFO] Speedtest attempt 1/3
+2026-04-24 11:30:34,659 [INFO] Speedtest success: ping=12.51 ms, down=105.19 Mbps, up=21.50 Mbps
+2026-04-24 11:30:34,675 [INFO] Saved result to database
+2026-04-24 11:30:34,675 [INFO] === Speedtest run completed ===
+2026-04-24 12:00:21,990 [INFO] === Speedtest run started ===
+2026-04-24 12:00:22,011 [INFO] Speedtest attempt 1/3
+2026-04-24 12:00:37,173 [INFO] Speedtest success: ping=12.52 ms, down=104.94 Mbps, up=21.47 Mbps
+2026-04-24 12:00:37,187 [INFO] Saved result to database
+2026-04-24 12:00:37,188 [INFO] === Speedtest run completed ===
+2026-04-24 12:03:57,487 [INFO] === Speedtest run started ===
+2026-04-24 12:03:57,491 [INFO] Speedtest attempt 1/3
+2026-04-24 12:04:10,205 [INFO] Speedtest success: ping=13.37 ms, down=105.30 Mbps, up=21.59 Mbps
+2026-04-24 12:04:10,208 [ERROR] Fatal error in collect_speedtest.py
+Traceback (most recent call last):
+  File "/home/czvck/Projects/network-dashboard/scripts/collect_speedtest.py", line 128, in <module>
+    main()
+    ~~~~^^
+  File "/home/czvck/Projects/network-dashboard/scripts/collect_speedtest.py", line 122, in main
+    save_result(ping, download, upload)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/czvck/Projects/network-dashboard/scripts/collect_speedtest.py", line 106, in save_result
+    cur.execute(
+    ~~~~~~~~~~~^
+        """
+        ^^^
+    ...<3 lines>...
+        (ping, download, upload),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+sqlite3.OperationalError: attempt to write a readonly database
+2026-04-24 12:06:31,441 [INFO] === Speedtest run started ===
+2026-04-24 12:06:31,442 [INFO] Speedtest attempt 1/3
+2026-04-24 12:06:45,710 [INFO] Speedtest success: ping=12.44 ms, down=105.27 Mbps, up=21.46 Mbps
+2026-04-24 12:06:45,714 [ERROR] Fatal error in collect_speedtest.py
+Traceback (most recent call last):
+  File "/home/czvck/Projects/network-dashboard/scripts/collect_speedtest.py", line 128, in <module>
+    main()
+    ~~~~^^
+  File "/home/czvck/Projects/network-dashboard/scripts/collect_speedtest.py", line 122, in main
+    save_result(ping, download, upload)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/czvck/Projects/network-dashboard/scripts/collect_speedtest.py", line 106, in save_result
+    cur.execute(
+    ~~~~~~~~~~~^
+        """
+        ^^^
+    ...<3 lines>...
+        (ping, download, upload),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+sqlite3.OperationalError: attempt to write a readonly database
+2026-04-24 12:08:07,895 [INFO] === Speedtest run started ===
+2026-04-24 12:08:07,897 [INFO] Speedtest attempt 1/3
+2026-04-24 12:08:20,547 [INFO] Speedtest success: ping=12.62 ms, down=105.25 Mbps, up=21.52 Mbps
+2026-04-24 12:08:20,562 [INFO] Saved result to database
+2026-04-24 12:08:20,562 [INFO] === Speedtest run completed ===
+2026-04-24 12:11:38,895 [INFO] === Speedtest run started ===
+2026-04-24 12:11:38,898 [INFO] Speedtest attempt 1/3
+2026-04-24 12:11:54,334 [INFO] Speedtest success: ping=12.59 ms, down=105.11 Mbps, up=21.45 Mbps
+2026-04-24 12:11:54,345 [INFO] Saved result to database
+2026-04-24 12:11:54,345 [INFO] === Speedtest run completed ===
+2026-04-24 12:30:21,457 [INFO] === Speedtest run started ===
+2026-04-24 12:30:21,459 [INFO] Speedtest attempt 1/3
+2026-04-24 12:30:34,055 [INFO] Speedtest success: ping=12.82 ms, down=105.26 Mbps, up=21.51 Mbps
+2026-04-24 12:30:34,073 [INFO] Saved result to database
+2026-04-24 12:30:34,074 [INFO] === Speedtest run completed ===
+2026-04-24 13:00:21,396 [INFO] === Speedtest run started ===
+2026-04-24 13:00:21,397 [INFO] Speedtest attempt 1/3
+2026-04-24 13:00:34,585 [INFO] Speedtest success: ping=12.33 ms, down=105.16 Mbps, up=21.30 Mbps
+2026-04-24 13:00:34,597 [INFO] Saved result to database
+2026-04-24 13:00:34,598 [INFO] === Speedtest run completed ===
+2026-04-24 13:30:22,075 [INFO] === Speedtest run started ===
+2026-04-24 13:30:22,078 [INFO] Speedtest attempt 1/3
+2026-04-24 13:30:35,221 [INFO] Speedtest success: ping=20.33 ms, down=104.93 Mbps, up=21.53 Mbps
+2026-04-24 13:30:35,235 [INFO] Saved result to database
+2026-04-24 13:30:35,235 [INFO] === Speedtest run completed ===
+2026-04-24 14:00:22,034 [INFO] === Speedtest run started ===
+2026-04-24 14:00:22,036 [INFO] Speedtest attempt 1/3
+2026-04-24 14:00:35,463 [INFO] Speedtest success: ping=25.11 ms, down=104.76 Mbps, up=21.38 Mbps
+2026-04-24 14:00:35,475 [INFO] Saved result to database
+2026-04-24 14:00:35,475 [INFO] === Speedtest run completed ===
+2026-04-24 14:30:21,680 [INFO] === Speedtest run started ===
+2026-04-24 14:30:21,682 [INFO] Speedtest attempt 1/3
+2026-04-24 14:30:34,949 [INFO] Speedtest success: ping=16.97 ms, down=105.12 Mbps, up=21.45 Mbps
+2026-04-24 14:30:34,971 [INFO] Saved result to database
+2026-04-24 14:30:34,971 [INFO] === Speedtest run completed ===
+2026-04-24 15:00:21,555 [INFO] === Speedtest run started ===
+2026-04-24 15:00:21,559 [INFO] Speedtest attempt 1/3
+2026-04-24 15:00:34,879 [INFO] Speedtest success: ping=12.53 ms, down=104.99 Mbps, up=21.46 Mbps
+2026-04-24 15:00:34,896 [INFO] Saved result to database
+2026-04-24 15:00:34,896 [INFO] === Speedtest run completed ===
+2026-04-24 15:30:21,687 [INFO] === Speedtest run started ===
+2026-04-24 15:30:21,689 [INFO] Speedtest attempt 1/3
+2026-04-24 15:30:36,568 [INFO] Speedtest success: ping=13.89 ms, down=105.31 Mbps, up=21.44 Mbps
+2026-04-24 15:30:36,582 [INFO] Saved result to database
+2026-04-24 15:30:36,583 [INFO] === Speedtest run completed ===
+2026-04-24 16:00:21,770 [INFO] === Speedtest run started ===
+2026-04-24 16:00:21,773 [INFO] Speedtest attempt 1/3
+2026-04-24 16:00:38,265 [INFO] Speedtest success: ping=15.43 ms, down=105.68 Mbps, up=21.41 Mbps
+2026-04-24 16:00:38,280 [INFO] Saved result to database
+2026-04-24 16:00:38,281 [INFO] === Speedtest run completed ===
+2026-04-24 16:30:21,895 [INFO] === Speedtest run started ===
+2026-04-24 16:30:21,899 [INFO] Speedtest attempt 1/3
+2026-04-24 16:30:37,039 [INFO] Speedtest success: ping=18.00 ms, down=105.36 Mbps, up=21.43 Mbps
+2026-04-24 16:30:37,062 [INFO] Saved result to database
+2026-04-24 16:30:37,062 [INFO] === Speedtest run completed ===
+2026-04-24 17:00:21,742 [INFO] === Speedtest run started ===
+2026-04-24 17:00:21,744 [INFO] Speedtest attempt 1/3
+2026-04-24 17:00:34,266 [INFO] Speedtest success: ping=12.89 ms, down=104.95 Mbps, up=21.52 Mbps
+2026-04-24 17:00:34,283 [INFO] Saved result to database
+2026-04-24 17:00:34,285 [INFO] === Speedtest run completed ===
+2026-04-24 17:30:21,407 [INFO] === Speedtest run started ===
+2026-04-24 17:30:21,409 [INFO] Speedtest attempt 1/3
+2026-04-24 17:30:34,131 [INFO] Speedtest success: ping=12.70 ms, down=105.01 Mbps, up=21.51 Mbps
+2026-04-24 17:30:34,147 [INFO] Saved result to database
+2026-04-24 17:30:34,147 [INFO] === Speedtest run completed ===
+2026-04-24 18:00:21,810 [INFO] === Speedtest run started ===
+2026-04-24 18:00:21,816 [INFO] Speedtest attempt 1/3
+2026-04-24 18:00:34,364 [INFO] Speedtest success: ping=16.50 ms, down=105.24 Mbps, up=21.53 Mbps
+2026-04-24 18:00:34,377 [INFO] Saved result to database
+2026-04-24 18:00:34,378 [INFO] === Speedtest run completed ===
+2026-04-24 18:30:21,713 [INFO] === Speedtest run started ===
+2026-04-24 18:30:21,715 [INFO] Speedtest attempt 1/3
+2026-04-24 18:30:34,323 [INFO] Speedtest success: ping=12.64 ms, down=104.87 Mbps, up=21.55 Mbps
+2026-04-24 18:30:34,336 [INFO] Saved result to database
+2026-04-24 18:30:34,336 [INFO] === Speedtest run completed ===
+2026-04-24 19:00:21,596 [INFO] === Speedtest run started ===
+2026-04-24 19:00:21,598 [INFO] Speedtest attempt 1/3
+2026-04-24 19:00:36,690 [INFO] Speedtest success: ping=12.96 ms, down=104.96 Mbps, up=21.42 Mbps
+2026-04-24 19:00:36,704 [INFO] Saved result to database
+2026-04-24 19:00:36,705 [INFO] === Speedtest run completed ===
+2026-04-24 19:30:21,445 [INFO] === Speedtest run started ===
+2026-04-24 19:30:21,446 [INFO] Speedtest attempt 1/3
+2026-04-24 19:30:34,693 [INFO] Speedtest success: ping=16.62 ms, down=104.86 Mbps, up=21.43 Mbps
+2026-04-24 19:30:34,723 [INFO] Saved result to database
+2026-04-24 19:30:34,723 [INFO] === Speedtest run completed ===
+2026-04-24 20:00:21,564 [INFO] === Speedtest run started ===
+2026-04-24 20:00:21,567 [INFO] Speedtest attempt 1/3
+2026-04-24 20:00:33,917 [INFO] Speedtest success: ping=12.55 ms, down=104.74 Mbps, up=21.43 Mbps
+2026-04-24 20:00:33,933 [INFO] Saved result to database
+2026-04-24 20:00:33,933 [INFO] === Speedtest run completed ===
+2026-04-24 20:30:21,802 [INFO] === Speedtest run started ===
+2026-04-24 20:30:21,804 [INFO] Speedtest attempt 1/3
+2026-04-24 20:30:34,674 [INFO] Speedtest success: ping=12.68 ms, down=105.07 Mbps, up=21.53 Mbps
+2026-04-24 20:30:34,696 [INFO] Saved result to database
+2026-04-24 20:30:34,697 [INFO] === Speedtest run completed ===
+2026-04-24 21:00:22,282 [INFO] === Speedtest run started ===
+2026-04-24 21:00:22,299 [INFO] Speedtest attempt 1/3
+2026-04-24 21:00:40,830 [INFO] Speedtest success: ping=12.31 ms, down=104.96 Mbps, up=19.04 Mbps
+2026-04-24 21:00:40,869 [INFO] Saved result to database
+2026-04-24 21:00:40,869 [INFO] === Speedtest run completed ===
+2026-04-24 21:30:21,866 [INFO] === Speedtest run started ===
+2026-04-24 21:30:21,872 [INFO] Speedtest attempt 1/3
+2026-04-24 21:30:34,836 [INFO] Speedtest success: ping=15.15 ms, down=105.19 Mbps, up=21.60 Mbps
+2026-04-24 21:30:34,854 [INFO] Saved result to database
+2026-04-24 21:30:34,855 [INFO] === Speedtest run completed ===
+2026-04-24 22:00:22,007 [INFO] === Speedtest run started ===
+2026-04-24 22:00:22,008 [INFO] Speedtest attempt 1/3
+2026-04-24 22:00:38,804 [INFO] Speedtest success: ping=13.21 ms, down=104.63 Mbps, up=18.77 Mbps
+2026-04-24 22:00:38,826 [INFO] Saved result to database
+2026-04-24 22:00:38,826 [INFO] === Speedtest run completed ===
+2026-04-24 22:30:22,132 [INFO] === Speedtest run started ===
+2026-04-24 22:30:22,145 [INFO] Speedtest attempt 1/3
+2026-04-24 22:30:36,671 [INFO] Speedtest success: ping=12.75 ms, down=105.21 Mbps, up=21.48 Mbps
+2026-04-24 22:30:36,683 [INFO] Saved result to database
+2026-04-24 22:30:36,683 [INFO] === Speedtest run completed ===
+2026-04-24 23:00:21,991 [INFO] === Speedtest run started ===
+2026-04-24 23:00:22,002 [INFO] Speedtest attempt 1/3
+2026-04-24 23:00:35,724 [INFO] Speedtest success: ping=13.87 ms, down=105.28 Mbps, up=21.50 Mbps
+2026-04-24 23:00:35,744 [INFO] Saved result to database
+2026-04-24 23:00:35,745 [INFO] === Speedtest run completed ===
+2026-04-24 23:30:21,995 [INFO] === Speedtest run started ===
+2026-04-24 23:30:21,997 [INFO] Speedtest attempt 1/3
+2026-04-24 23:30:34,295 [INFO] Speedtest success: ping=13.01 ms, down=105.19 Mbps, up=21.50 Mbps
+2026-04-24 23:30:34,312 [INFO] Saved result to database
+2026-04-24 23:30:34,312 [INFO] === Speedtest run completed ===
+2026-04-25 00:00:21,399 [INFO] === Speedtest run started ===
+2026-04-25 00:00:21,401 [INFO] Speedtest attempt 1/3
+2026-04-25 00:00:33,173 [INFO] Speedtest success: ping=12.52 ms, down=102.40 Mbps, up=21.51 Mbps
+2026-04-25 00:00:33,293 [INFO] Saved result to database
+2026-04-25 00:00:33,293 [INFO] === Speedtest run completed ===
+2026-04-25 00:30:21,504 [INFO] === Speedtest run started ===
+2026-04-25 00:30:21,506 [INFO] Speedtest attempt 1/3
+2026-04-25 00:30:40,522 [INFO] Speedtest success: ping=12.51 ms, down=100.35 Mbps, up=20.37 Mbps
+2026-04-25 00:30:40,542 [INFO] Saved result to database
+2026-04-25 00:30:40,542 [INFO] === Speedtest run completed ===
+2026-04-25 01:00:22,097 [INFO] === Speedtest run started ===
+2026-04-25 01:00:22,099 [INFO] Speedtest attempt 1/3
+2026-04-25 01:00:36,155 [INFO] Speedtest success: ping=12.39 ms, down=105.29 Mbps, up=21.49 Mbps
+2026-04-25 01:00:36,173 [INFO] Saved result to database
+2026-04-25 01:00:36,174 [INFO] === Speedtest run completed ===
+2026-04-25 01:30:21,365 [INFO] === Speedtest run started ===
+2026-04-25 01:30:21,367 [INFO] Speedtest attempt 1/3
+2026-04-25 01:30:35,406 [INFO] Speedtest success: ping=12.50 ms, down=103.95 Mbps, up=21.37 Mbps
+2026-04-25 01:30:35,418 [INFO] Saved result to database
+2026-04-25 01:30:35,419 [INFO] === Speedtest run completed ===
+2026-04-25 02:00:22,063 [INFO] === Speedtest run started ===
+2026-04-25 02:00:22,064 [INFO] Speedtest attempt 1/3
+2026-04-25 02:00:36,511 [INFO] Speedtest success: ping=12.47 ms, down=104.17 Mbps, up=21.46 Mbps
+2026-04-25 02:00:36,523 [INFO] Saved result to database
+2026-04-25 02:00:36,524 [INFO] === Speedtest run completed ===
+2026-04-25 02:30:21,778 [INFO] === Speedtest run started ===
+2026-04-25 02:30:21,779 [INFO] Speedtest attempt 1/3
+2026-04-25 02:30:39,902 [INFO] Speedtest success: ping=12.64 ms, down=104.57 Mbps, up=21.32 Mbps
+2026-04-25 02:30:39,918 [INFO] Saved result to database
+2026-04-25 02:30:39,918 [INFO] === Speedtest run completed ===
+2026-04-25 03:00:21,513 [INFO] === Speedtest run started ===
+2026-04-25 03:00:21,515 [INFO] Speedtest attempt 1/3
+2026-04-25 03:00:34,807 [INFO] Speedtest success: ping=12.45 ms, down=104.05 Mbps, up=21.49 Mbps
+2026-04-25 03:00:34,826 [INFO] Saved result to database
+2026-04-25 03:00:34,827 [INFO] === Speedtest run completed ===
+2026-04-25 03:30:21,810 [INFO] === Speedtest run started ===
+2026-04-25 03:30:21,813 [INFO] Speedtest attempt 1/3
+2026-04-25 03:30:35,136 [INFO] Speedtest success: ping=12.44 ms, down=104.25 Mbps, up=21.51 Mbps
+2026-04-25 03:30:35,155 [INFO] Saved result to database
+2026-04-25 03:30:35,155 [INFO] === Speedtest run completed ===
+2026-04-25 04:00:22,037 [INFO] === Speedtest run started ===
+2026-04-25 04:00:22,040 [INFO] Speedtest attempt 1/3
+2026-04-25 04:00:31,448 [INFO] Speedtest success: ping=13.22 ms, down=102.60 Mbps, up=20.66 Mbps
+2026-04-25 04:00:31,462 [INFO] Saved result to database
+2026-04-25 04:00:31,462 [INFO] === Speedtest run completed ===
+2026-04-25 04:30:22,157 [INFO] === Speedtest run started ===
+2026-04-25 04:30:22,160 [INFO] Speedtest attempt 1/3
+2026-04-25 04:30:35,482 [INFO] Speedtest success: ping=12.59 ms, down=104.88 Mbps, up=21.47 Mbps
+2026-04-25 04:30:35,493 [INFO] Saved result to database
+2026-04-25 04:30:35,493 [INFO] === Speedtest run completed ===
+2026-04-25 05:00:21,906 [INFO] === Speedtest run started ===
+2026-04-25 05:00:21,908 [INFO] Speedtest attempt 1/3
+2026-04-25 05:00:34,796 [INFO] Speedtest success: ping=12.52 ms, down=103.96 Mbps, up=21.46 Mbps
+2026-04-25 05:00:34,814 [INFO] Saved result to database
+2026-04-25 05:00:34,814 [INFO] === Speedtest run completed ===
+2026-04-25 05:30:21,508 [INFO] === Speedtest run started ===
+2026-04-25 05:30:21,509 [INFO] Speedtest attempt 1/3
+2026-04-25 05:30:39,782 [INFO] Speedtest success: ping=25.04 ms, down=104.53 Mbps, up=21.49 Mbps
+2026-04-25 05:30:39,798 [INFO] Saved result to database
+2026-04-25 05:30:39,798 [INFO] === Speedtest run completed ===
+2026-04-25 06:00:21,518 [INFO] === Speedtest run started ===
+2026-04-25 06:00:21,520 [INFO] Speedtest attempt 1/3
+2026-04-25 06:00:33,133 [INFO] Speedtest success: ping=12.90 ms, down=104.22 Mbps, up=21.48 Mbps
+2026-04-25 06:00:33,149 [INFO] Saved result to database
+2026-04-25 06:00:33,149 [INFO] === Speedtest run completed ===
+2026-04-25 06:30:21,384 [INFO] === Speedtest run started ===
+2026-04-25 06:30:21,386 [INFO] Speedtest attempt 1/3
+2026-04-25 06:30:35,441 [INFO] Speedtest success: ping=12.70 ms, down=105.25 Mbps, up=21.52 Mbps
+2026-04-25 06:30:35,452 [INFO] Saved result to database
+2026-04-25 06:30:35,452 [INFO] === Speedtest run completed ===
+2026-04-25 07:00:21,767 [INFO] === Speedtest run started ===
+2026-04-25 07:00:21,770 [INFO] Speedtest attempt 1/3
+2026-04-25 07:00:38,888 [INFO] Speedtest success: ping=12.36 ms, down=102.86 Mbps, up=21.48 Mbps
+2026-04-25 07:00:38,902 [INFO] Saved result to database
+2026-04-25 07:00:38,903 [INFO] === Speedtest run completed ===
+2026-04-25 07:30:21,474 [INFO] === Speedtest run started ===
+2026-04-25 07:30:21,476 [INFO] Speedtest attempt 1/3
+2026-04-25 07:30:33,363 [INFO] Speedtest success: ping=12.52 ms, down=105.16 Mbps, up=21.58 Mbps
+2026-04-25 07:30:33,382 [INFO] Saved result to database
+2026-04-25 07:30:33,382 [INFO] === Speedtest run completed ===
+2026-04-25 08:00:21,585 [INFO] === Speedtest run started ===
+2026-04-25 08:00:21,591 [INFO] Speedtest attempt 1/3
+2026-04-25 08:00:34,170 [INFO] Speedtest success: ping=12.36 ms, down=105.25 Mbps, up=21.48 Mbps
+2026-04-25 08:00:34,187 [INFO] Saved result to database
+2026-04-25 08:00:34,187 [INFO] === Speedtest run completed ===
+2026-04-25 08:30:21,573 [INFO] === Speedtest run started ===
+2026-04-25 08:30:21,575 [INFO] Speedtest attempt 1/3
+2026-04-25 08:30:36,527 [INFO] Speedtest success: ping=12.48 ms, down=105.09 Mbps, up=21.49 Mbps
+2026-04-25 08:30:36,541 [INFO] Saved result to database
+2026-04-25 08:30:36,542 [INFO] === Speedtest run completed ===
+2026-04-25 09:00:21,945 [INFO] === Speedtest run started ===
+2026-04-25 09:00:21,948 [INFO] Speedtest attempt 1/3
+2026-04-25 09:00:36,700 [INFO] Speedtest success: ping=12.71 ms, down=105.24 Mbps, up=21.45 Mbps
+2026-04-25 09:00:36,715 [INFO] Saved result to database
+2026-04-25 09:00:36,715 [INFO] === Speedtest run completed ===
+2026-04-25 09:30:21,415 [INFO] === Speedtest run started ===
+2026-04-25 09:30:21,418 [INFO] Speedtest attempt 1/3
+2026-04-25 09:30:34,307 [INFO] Speedtest success: ping=12.63 ms, down=105.24 Mbps, up=21.48 Mbps
+2026-04-25 09:30:34,323 [INFO] Saved result to database
+2026-04-25 09:30:34,324 [INFO] === Speedtest run completed ===
+2026-04-25 09:30:39,970 [INFO] === Speedtest run started ===
+2026-04-25 09:30:39,973 [INFO] Speedtest attempt 1/3
+2026-04-25 09:30:54,231 [INFO] Speedtest success: ping=12.30 ms, down=105.06 Mbps, up=21.47 Mbps
+2026-04-25 09:30:54,244 [INFO] Saved result to database
+2026-04-25 09:30:54,244 [INFO] === Speedtest run completed ===
