@@ -22,6 +22,7 @@ API at `/speedtest` lets me query the data from my portfolio dashboard.
 
 ## Project Structure
 
+```
 network-dashboard/
 ├── scripts/
 │   ├── collect_speedtest.py   # data collection pipeline
@@ -33,7 +34,7 @@ network-dashboard/
 ├── cron/
 │   └── speedtest_cron.txt     # cron reference config
 └── speedtest_api.py           # Flask API (port 5050)
-
+```
 ## Setup
 
 Install the Ookla CLI:
